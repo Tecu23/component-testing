@@ -1,9 +1,10 @@
 import SubmitButton from "@/components/SubmitButton";
+import SyncLoader from "@/components/spinners/SyncLoaded";
 
 function App() {
     return (
-        <div className="flex justify-center items-center min-h-screen">
-            <SubmitButton />
+        <div className="flex items-center justify-center min-h-screen">
+            <SyncLoader />
         </div>
     );
 }
