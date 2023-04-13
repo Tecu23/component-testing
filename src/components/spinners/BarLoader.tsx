@@ -9,8 +9,8 @@ const BarLoader = (props: Props) => {
             <div className="w-20 h-1 col-start-1 row-start-1 bg-cyan-800"></div>
             <motion.div
                 animate={{
-                    x: [-20, 80],
-                    width: ["20px", "20px"],
+                    x: [-20, 60, 80],
+                    width: ["20px", "20px", "20px"],
                 }}
                 transition={{
                     ease: "easeInOut",
@@ -18,7 +18,7 @@ const BarLoader = (props: Props) => {
                     repeat: Infinity,
                     repeatDelay: 0.3,
                 }}
-                className="w-5 h-1 col-start-1 row-start-1 bg-cyan-400"
+                className="w-5 h-1 col-start-1 row-start-1 rounded-[1px] bg-cyan-400"
             ></motion.div>
         </div>
     );
