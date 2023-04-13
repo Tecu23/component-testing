@@ -6,7 +6,12 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        'victor-narrow': ['"Victor Narrow"'],
+        'victor-serif': ['"Victor Serif']
+      }
+    }
   },
   plugins: []
 }
